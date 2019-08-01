@@ -46,6 +46,8 @@ class App extends Component {
             friends[i].click = false;
         }
 
+        alert("You hit the same card twice! Try again!");
+
     // Otherwise, if clicked = false, and the user hasn't finished
     } else if (this.state.score < 12) {
         // Set its value to true
